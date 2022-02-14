@@ -1,0 +1,315 @@
+* {margin: 0;
+    padding: 0;}
+
+
+body{
+    font-family: Helvetica, "Trebuchet MS", sans-serif;
+    background: #fff url(bg.png);
+    margin: 15px;
+
+}
+
+
+#container-index{
+    background: #ede9cc url(bg-container.png) top center repeat-y;
+    margin: 0 auto;
+    min-width: 750px;
+    max-width:1180px ;
+}
+
+
+#container{
+    background: #ede9cc;
+    margin: 0 auto;
+    min-width: 750px;
+    max-width:1180px ;
+}
+
+
+/* CONFIGURANDO ÁREA DE TOPO */
+#topo {
+    background: #dbcd87;
+    height:15.4em;
+    min-height: 250px;
+    position: relative;
+    }
+
+#area-logo {
+    background: url(topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+    }
+
+.logo a {
+    position: absolute;
+    top:15px;
+    left:15px;
+    z-index:3;
+    background: url(logo.png) no-repeat;
+    width: 151px;
+    height: 66px; /* coloquei como tamanho do logo a altura e largura da imagem */
+    text-indent: -9000px; /*para tirar o texto da tela*/
+}
+
+#area-menu {
+    background: url(topo-imagem-lateral.png) no-repeat;
+    width: 450px;
+    height: 250px;
+    position: absolute;
+    right: 0;
+    z-index:2
+    
+}
+
+
+#conteudo-menu{
+    margin-left: 90px;
+    margin-right: 15px;
+    padding-top: 15px;
+
+}
+
+#menu-locais{
+    border-bottom: 1px solid #b5ab56;
+    border-top: 1px solid #b5ab56;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.7em;
+    color: #8b8448;
+}
+
+#menu-locais .locais{
+    float: left;
+    line-height: 2.1em;
+}
+a{
+    text-decoration: none;
+}
+
+.locais a {
+    
+    color: #6e672c;
+    
+    }
+
+.locais a:hover {
+   background: #fdf6be;
+}
+
+
+a.reserva {
+    text-transform: uppercase;
+    background: #a29758;
+    color: #fff5b0;
+    padding: 5px 10px;
+    float: right;
+    
+}
+
+li{
+    list-style: none;
+}
+
+ul#navegacao{
+    float:left;
+}
+
+ul#navegacao a{
+    text-transform: uppercase;
+    font-size:0.8em;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 30px;
+}
+
+ul#navegacao a:hover{
+    background: #fdf6be;
+}
+
+.depoimento {
+    width: 226px;
+    height:164px;
+    float: right;
+}
+
+/* CONFIGURANDO ÁREA DE CONTEÚDOS */
+
+#area-principal {
+    float: left;
+    width: 50%;
+    background: url(bg-area-principal.png) top left repeat-x;
+    padding: 15px 0px;
+}
+
+
+#area-lateral {
+   
+    float: right;
+    width:50%;
+    background: url(bg-area-lateral.png) top left repeat-x;
+    padding: 20px 0px;
+}
+
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+#rodape {
+    clear: both;
+    padding: 16px;
+    background: #fff url(bg-rodape.png) repeat-x top;
+    color: #7d7640;
+    text-align: center;
+}
+
+/* formatação de textos */
+
+h2{
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+p{
+    font-size: 1em;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+
+
+/* formatação do menu lateral */
+
+.menu-lateral li{
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 150px; 
+}
+
+.menu-lateral li a img {
+    float:left;
+    margin: 5px;
+    width: 150px;
+    height: 100px;
+    
+}
+
+.menu-lateral li a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+.menu-lateral li:hover {
+    background:#f3f3d6;
+    cursor: pointer;
+}
+
+.menu-lateral li a h3{
+    font-size: 1em;
+    padding:5px 0;
+    color: #7d7640;
+    background: url(ornamento.png) no-repeat center right;
+}
+
+.menu-lateral li a p{
+    font-size: 0.7em;
+    text-align: justify;
+}
+
+
+#area-principal-apartamento {
+    background: #ede9cc url(bg-area-principal.png) top left repeat-x;
+    padding: 10px;
+    
+}
+
+
+
+
+.conteudo-apartamento li{
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 500px; 
+}
+#area-principal-apartamento{
+    margin: 10px;
+}
+
+
+
+.li-apartamento li img {
+    float:left;
+    margin: 5px;
+    width: 50%;
+    
+}
+
+.li-apartamento li p{
+    font-size: 1.2em;
+    text-align: justify;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+#img-imprensa .centralizar{
+    display: block;
+    margin:20px auto;
+}
+
+#texto-imprensa .texto-centralizado h2{
+    text-align: center;
+}
+
+
+
+#contato h4{
+    text-align: center;
+    margin-top: 20px;
+    color: #6e672c;
+}
+
+#contato p{
+    text-align: center;
+    color: #6e672c;
+}
+
+fieldset{padding: 1em;
+    margin: 10px;
+    text-align: left;
+    background: #e2e0e0;}
+    
+
+legend{
+    text-transform: uppercase;
+    color: #6e672c;
+    font-weight: bold;
+    
+}
+
+label{
+    display: block;
+}
+
+input.text{
+    width: 80%;
+    height: 30px;
+}
+
+input.submit{
+   width: 15%;
+    margin-top: 10px;
+    }
+
+form {display: block;
+ }
+
+textarea {width:80%;
+    height: 200px;}
